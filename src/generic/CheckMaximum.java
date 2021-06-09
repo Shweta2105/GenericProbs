@@ -24,6 +24,8 @@ public class CheckMaximum {
 	
 	public static void main(String[] args) {
 		//calling method maximum from main method
-		System.out.printf("Maximum of %d, %d and %d is %d\n\n", 3, 4, 5, maximum(3, 4, 5));
+		System.out.printf("Maximum of %d, %d and %d is %d\n\n", 7, 10, 5, maximum(7, 10, 5));
+		System.out.printf("Maximum of %.1f, %.1f and %.1f is %.1f\n\n", 3.6, 1.4, 9.5, maximum(3.6, 1.4, 9.5));
+		
 	}
 }
